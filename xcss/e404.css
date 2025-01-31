@@ -1,0 +1,12 @@
+*, html, body, ul, ol, dl, li, dt, dd {margin:0px; padding:0px;}
+/*---------------------------ERROR 404*/
+.error404 {padding:60px 120px; font:normal 16px Arial;}
+.error404 p{ padding:0 0 15px 0;}
+.big-fonts { border-bottom:1px solid #b5b5b5; padding:0 0 10px 0; float:left; color:#19191a; font:normal 34px Arial;}
+.big-fonts span.bg { background:#c32f75; color:#fff; padding:0 8px;}
+.title{ font:normal 18px Arial; clear:both; margin:80px 0 0 0; display:block;}
+.error404 p span{ color:#c32f75; font-weight:bold;}
+.error404 a{ color:#05769b;}
+.error404 a:hover{ text-decoration:none;}
+.txt{ padding:0 0 0 20px;}
+.gen{ font-size:10px; float:right; margin:250px 0 0 0;}

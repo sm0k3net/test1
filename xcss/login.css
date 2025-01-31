@@ -1,0 +1,28 @@
+html, body {height:100%;}
+*, html, body, ul, ol, dl, li, dt, dd {margin:0px; padding:0px;}
+body {font:12px Arial; background:#2c2c31; height:100%; color:#fff; min-width:1000px; position:relative;}
+img {border:0px;}
+input, textarea, select {font:12px Arial;}
+a {color:#fff; outline:none;}
+a:hover {text-decoration:none;}
+li {list-style-type:none;}
+.clear{clear:both; height:0px; font-size:0; overflow:hidden;}
+/*----------------------------------------------------------------------------------------------------------------START*/
+.login {background:url(../ximg/login/logo_block_bg.jpg) no-repeat; width:284px; height:300px; position:absolute; top:50%; left:50%; margin:-150px 0 0 -142px;}
+.inputs {position:absolute; top:88px; left:30px;}
+.inputs p {font:14px "Myriad pro";}
+input {background:url(../ximg/login/input_bg.png) no-repeat; width:215px; height:21px; font:normal 18px Arial; border:0; padding:5px; margin:4px 0 10px 0;}
+.enter {background:url(../ximg/login/button.png) no-repeat; width:87px; height:26px; display:block; font:bold 15px Arial; text-decoration:none; text-align:center; padding:8px 0 0 0; text-shadow:0 1px 1px rgba(102, 50, 80, 0.8); position:absolute; bottom:26px; right:30px;}
+a:hover.enter {background:url(../ximg/login/button.png) no-repeat 0 -34px;}
+.cache {font:14px "Myriad pro"; position:relative; padding:0 0 0 24px; margin:5px 0 0 0; text-decoration:none; position:absolute; top:212px; left:30px;}
+.cache span {background:url(../ximg/login/chk.gif) no-repeat -17px 0; width:17px; height:17px; position:absolute; left:0; top:0;}
+.cache.selected span {background:url(../ximg/login/chk.gif) no-repeat 0 0;}
+.lang {background:#3d3c44; width:100px; padding:5px 10px; position:relative; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; position:absolute; top:248px; left:30px; text-decoration:none;}
+.lang ul li a, .lang ul li {text-decoration:none; font:13px "Myriad pro";}
+.lang ul li a:hover {text-decoration:underline;}
+.l-button {background:url(../ximg/login/chk.gif) no-repeat 0 -17px; width:13px; height:7px; position:absolute; right:10px; top:10px;}
+.bottom-text {color:#89848f; position:absolute; left:30px; bottom:-40px; font:13px "Myriad pro";}
+
+.log-error {background:#912249; width:284px; color:#fff; position:absolute; left:50%; top:50%; z-index:1; margin:-188px 0 0 -142px; padding:5px 0; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; font:normal 14px Arial, Helvetica, sans-serif; text-align:center; border:1px solid #9e385b;}
+
+
