@@ -1,0 +1,68 @@
+{%section:create_SEORULE%}
+
+{%if('{F:action}'=='edit')%}
+        <form id="edit_SEORULE">
+        {%else%}
+        <form id="create_SEORULE">
+    
+  {%endif%}
+  
+  
+  
+
+<div class="panel-body col-lg-8">    
+            
+            
+                       <div class="form-group m-l-sm">    
+                        <label class="control-label">{link}:</label>
+                                  <input  class="form-control validate[required]" id="link" name="link" value="">
+                        </div>
+                        
+						<div class="form-group m-t-sm m-l-sm"><label>{Canonical}</label>
+                              
+							  <input  class="form-control validate[required]" id="canonical" name="canonical" value="">                          
+                          </div>
+						  
+                       <div class="form-group m-l-sm">   
+                         <label class="control-label">{title}:</label>
+                                     <input  class="form-control validate[required]" id="title" name="title" value="">   
+                        </div>
+                        
+                        <div class="form-group m-l-sm">   
+                         <label class="control-label">{keywords}:</label>
+                            <input  class="form-control validate[required]" id="keywords" name="keywords" value="">   
+                        </div>
+                        
+                        <div class="form-group m-l-sm">   
+                         <label class="control-label">{description}:</label>
+                                     <textarea  class="form-control" id="description" name="description" ></textarea>
+                        </div>
+                        
+                          <div class="form-group m-t-sm m-l-sm"><label>{text}</label>
+                             <span class="pull-right">
+                              <a href="#" class="btn btn-xs btn-default editorApplyButton">{initiate-editor}</a></span>
+                              <textarea rows="8" class="form-control ck-apply" id="text" name="text"></textarea>
+                          
+                          </div>
+                          
+						    
+						  
+                          <div class="form-group m-t-sm m-l-sm"><label>{comment}</label>
+                             <span class="pull-right">
+                              <a href="#" class="btn btn-xs btn-default editorApplyButton">{initiate-editor}</a></span>
+                              <textarea rows="8" class="form-control ck-apply" id="comment" name="comment"></textarea>
+                          
+                          </div>
+                        
+                    <a class="btn btn-success m-b-sm save" >{save}</a>   
+            </div>
+     
+     
+            
+  
+    </form>
+
+
+     
+
+{%endsection:create_SEORULE%}
